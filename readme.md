@@ -8,7 +8,6 @@ Create a Touch Bar shortcut that toggles between dark mode and light mode.
 
 If you’re anything like me, you enjoy changing between dark mode and light mode based on what vibe you’re feeling.  
 
-
 Here’s a quick and to-the-point tutorial where I'll show you how to add a shortcut to your MacBook's Touch Bar that makes switching all that much easier. 
 
 🌞🌚 
@@ -62,12 +61,14 @@ Double click "Run AppleScript" and you’ll see this page
 ![Run AppleScript page](https://thepracticaldev.s3.amazonaws.com/i/db0t33krwu2gqq9k08q9.png)
 
 Delete the existing code, and replace it with the following code:
-```tell application "System Events"
+
+```
+tell application "System Events"
 tell appearance preferences 
 set dark mode to not dark mode 
 end tell
-end tell```
-
+end tell
+```
 It should look like this:
 
 ![Updated code](https://thepracticaldev.s3.amazonaws.com/i/p6z03n4vr7r0fej38sa6.png)
