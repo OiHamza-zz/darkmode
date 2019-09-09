@@ -1,10 +1,10 @@
----
-title: Toggle Dark Mode with Touch Bar
-published: true
-description: Create a Touch Bar shortcut that toggles between dark mode and light mode. 
-tags: touch-bar, shortcut, dark-mode
-cover_image: https://thepracticaldev.s3.amazonaws.com/i/8jkbs2bgnkbf979zs9xu.jpg
----
+Toggle Dark Mode with Touch Bar
+====================
+Create a Touch Bar shortcut that toggles between dark mode and light mode. 
+
+![cover_image](https://thepracticaldev.s3.amazonaws.com/i/8jkbs2bgnkbf979zs9xu.jpg)
+
+##### This tutorial lives on [dev.to](https://dev.to/oihamza/toggle-dark-mode-with-touch-bar-3o8n)
 
 If you’re anything like me, you enjoy changing between dark mode and light mode based on what vibe you’re feeling.  
 
